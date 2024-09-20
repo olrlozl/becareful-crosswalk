@@ -51,7 +51,7 @@
 
 |**이은지 (팀원/FE)**|**김지환 (팀원/FE)**|
 |:---:|:---:|
-|화면 페이지 구현, Firebase|화면 페이지 구현, Geofencing 구현|
+|신호 안내, 거리•방향 보조, 불편신고, Firebase|신호 안내, Map, Geofencing|
 
 <a name="project"></a>
 
@@ -85,13 +85,6 @@ master - fe-develop  - feature/이슈번호/기능
 
 - 아이디어 기획 및 구체화 단계에서 요구사항 정의
 - 우선순위 지정 후 기능 확정
-
-### ✏ Wireframe
-
-- Figma 활용 UI/UX 디자인 진행
-- 기능 develop
-![image](https://github.com/NoRuTnT/Dotori/assets/114069644/7d3c8cde-3b70-49bf-b7f3-8b12add3650e)
-
 
 ### ✏ System Architecture
 ![KakaoTalk_20240519_154835047](https://github.com/NoRuTnT/Dotori/assets/114069644/3d20700d-71ec-4cdf-8be4-af629ebcbad3)
