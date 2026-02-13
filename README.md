@@ -1,68 +1,69 @@
-# :clapper: 조심횡
-![image](https://github.com/NoRuTnT/Dotori/assets/114069644/49d7dd5e-222f-4d20-8362-dabcb11223cc)
+# 🚦 조심횡
+### 시각장애인의 안전한 횡단보도 보행을 지원해주는 앱 서비스
+<img width="770" src="https://github.com/user-attachments/assets/d3ddbd8c-c469-40fb-95f0-dc3fd98a1b63" />
 
-
-## 📚 목차
-- [💬 서비스 소개](#intro)
-- [🎯 기획 배경](#plans)
-- [🙇 팀원 소개](#members)
-- [🏠 프로젝트 진행](#project)
-- [💡 주요 기능](#features)
-- [🔑 기술 소개](#technology)
-- [🔨 개발 환경](#skills)
-- [🚀 포팅 메뉴얼](#installation)
-- [📂 폴더 구조](#folder)
-
-<a name="intro"></a>
-## 💬 서비스 소개
-
-**횡단보도 보행시 잔여 시간 알림과 같은 보조 기능들을 제공합니다.**
-
-- 횡단보도 신호상태, 신호잔여시간 알림
-- 횡단보도 보행시 횡단보도에서 벗어나지 않도록 진동을 통한 방향 보조 기능
-- 진입한 횡단보도의 진행 방면을 알려주는 알림 기능
-- 파손된 점자블록 신고 기능
 
 <a name="plans"></a>
 ## 🎯 기획 배경
-### 시각장애인들의 횡단보도 보행시 다양한 불편함
+<img width="770" src="https://github.com/user-attachments/assets/4f5c9291-71d8-4f99-bd91-0487bbb488f6" />
+<img width="770" src="https://github.com/user-attachments/assets/794b70f6-845a-485b-bbe7-07c57e4af68a" />
+<img width="770" src="https://github.com/user-attachments/assets/ca71a7fe-03fd-49f2-b291-bbffc02641d4" />
 
-  ![image](https://github.com/NoRuTnT/Dotori/assets/114069644/2e23fc40-279e-4602-96af-69ebab1b2504)  
 
-  - 도로는 건너는 중 현재 신호가 초록불인지 빨간불인지 알수가없다
-  - 신호가 몇초 남았는지 알 수 없어 건너는도중 빨간불로 바뀌었을까봐 걱정된다.
-  - 음향신호기가 고장나서 소리가 나지 않거나 소리가 너무 작아서 알아들을수없는 경우가 있다.
+<a name="intro"></a>
+## 💡 서비스 화면 & 기능 소개
 
-  ![image](https://github.com/NoRuTnT/Dotori/assets/114069644/49a6f785-8b09-44ab-bd4e-c634ec73645a)  
+<img width="770" src="https://github.com/user-attachments/assets/13c36945-e8cb-4949-a8a7-50520901254b" />
 
-  - 음향신호기가 설치되지 않은 교차로가 존재한다
-  - 음향신호기 위치까지 점자블록이 이어져 있지 않아서 음향신호기 버튼을 찾을수가없다.  
+<img width="770" src="https://github.com/user-attachments/assets/a494824a-e05a-4e2c-956e-2ac6fac40d39" />
 
-**위의 문제점들을 해결할 수 있는 시각장애인을 위한 안전보행서비스를 개발하게되었다.**  
-(출처 : 원샷한솔OneshotHansol 유튜브 영상 캡쳐)
+<img width="770" src="https://github.com/user-attachments/assets/5fadcd8b-3ecf-452a-af49-77e3f0f1daf7" />
+
+<img width="770" src="https://github.com/user-attachments/assets/858f4fa9-95ae-4a1b-bd35-c6bfd0ba8947" />
+
+<img width="770" src="https://github.com/user-attachments/assets/6fdbd94f-77df-4678-893d-d053861587c9" />
+
+
+<a name="intro"></a>
+## 🍀 기대효과
+<img width="770" alt="기대효과" src="https://github.com/user-attachments/assets/8ae153f7-d83d-4b53-a779-d8425f0eaf56" />
+
+
+<a name="features"></a>
+## 🧑‍🦯 서비스 시연
+### 🚗 교차로진입
+<img width="770" src="https://github.com/NoRuTnT/becareful/assets/114069644/c3252238-83bc-4bf4-ba6f-8c87259deabc" />
+
+### 🚸 횡단보도 진입
+<img width="770" src="https://github.com/NoRuTnT/becareful/assets/114069644/80ef7699-edb4-4307-9ce8-cb63ddbca07e" />
+
+### 🔴 빨간불 안내
+<img width="770" src="https://github.com/NoRuTnT/becareful/assets/114069644/7aea430d-25cd-4c17-beb5-396bd63453b0" />
+
+### 🟢 초록불 안내
+<img width="770" src="https://github.com/NoRuTnT/becareful/assets/114069644/59acdfca-149e-4358-83c9-3d08a75ea43f" />
+
+### 🧭 보행 방향 보조
+<img width="770" src="https://github.com/NoRuTnT/becareful/assets/114069644/a910f5e2-e1a4-4d74-82d6-9c1b3d02e843" />
+
 
 <a name="members"></a>
-## 🙇 팀원 소개
+## 🙇 팀원 소개 
 
-|**최동헌 (팀장/BE)**|**문준형 (팀원/BE)**|**차다운 (팀원/BE)**|
-|:---:|:---:|:---:|
-|S3, 카프카 Sink Connector|인프라, 카프카 파이프라인|카프카 Sink Connector , Firebase|
+- 최동헌 (팀장/BE): S3, 카프카 Sink Connector
+- 문준형 (인프라): 인프라, 카프카 파이프라인
+- 차다운 (벡엔드장): 카프카 Sink Connector , Firebase
+- 이은지 (프론트장): 신호 안내, 거리•방향, 불편신고, Firebase
+- 김지환 (PM/FE): 신호 안내, Map, Geofencing
 
-
-|**이은지 (팀원/FE)**|**김지환 (팀원/FE)**|
-|:---:|:---:|
-|신호 안내, 거리•방향 보조, 불편신고, Firebase|신호 안내, Map, Geofencing|
 
 <a name="project"></a>
+## 🧑🏻‍💻 프로젝트 진행
 
-## 💡 프로젝트 진행
-
-### ✏ Notion
-
+### 📔 Notion
 - 프로젝트 관련 학습 내용과 논의 내용을 notion 에 작성하여 문서 관리
 
-### ✏ Jira
-
+### 📙 Jira
 - 프로젝트 일정 관리
 - 이슈 발행 및 담당자 지정
   - 매주 스프린트 시작 전 백로그에 이슈 등록
@@ -70,92 +71,55 @@
   - 하위 작업 등록을 통한 세부 일정 관리
 - 스프린트 번다운 차트 활용
 
-### ✏ Git
-
+### 📗 Git
 - 팀 Notion에 Git 행동 강령과 Commit convention 작성, 공유
-
-
 - 작업 브랜치 전략
 ```
 master - fe-develop  - feature/이슈번호/기능
        - be-develop                  
        - data-develop                  
 ```
-### ✏ 요구사항 정의서
 
+### 📕 요구사항 정의서
 - 아이디어 기획 및 구체화 단계에서 요구사항 정의
 - 우선순위 지정 후 기능 확정
 
-### ✏ System Architecture
-![KakaoTalk_20240519_154835047](https://github.com/NoRuTnT/Dotori/assets/114069644/3d20700d-71ec-4cdf-8be4-af629ebcbad3)
+### 📘 System Architecture
+<img width="600" src="https://github.com/NoRuTnT/Dotori/assets/114069644/3d20700d-71ec-4cdf-8be4-af629ebcbad3" />
 
-
-<a name="features"></a>
-
-## 💡 주요 기능
-
-### 🖥️ 메인페이지
-|  메인페이지 및 이용안내  |
-|:---------:|
-| ![메인페이지](/uploads/84b6b438c4002259881bae0b283a7b4f/메인페이지및이용안내.gif) |
-
-### 🙋‍♀️ 보행 보조기능
-
-|  교차로진입  |
-|:---------:|
-| ![교차로 진입](https://github.com/NoRuTnT/becareful/assets/114069644/c3252238-83bc-4bf4-ba6f-8c87259deabc) |
-
-|  횡단보도 진입  |
-|:---------:|
-| ![횡단보도진입](https://github.com/NoRuTnT/becareful/assets/114069644/80ef7699-edb4-4307-9ce8-cb63ddbca07e) |
-
-|  잔여시간안내  |
-|:---------:|
-| ![잔여시간안내](https://github.com/NoRuTnT/becareful/assets/114069644/7aea430d-25cd-4c17-beb5-396bd63453b0) |
-| ![잔여시간안내2](https://github.com/NoRuTnT/becareful/assets/114069644/59acdfca-149e-4358-83c9-3d08a75ea43f) |
-
-|  보행방향보조  |
-|:---------:|
-| ![보행방향보조](https://github.com/NoRuTnT/becareful/assets/114069644/a910f5e2-e1a4-4d74-82d6-9c1b3d02e843) |
-
-
-### 📑 신고 기능
-|  파손된 보도블록 신고  |
-|:---------:|
-| ![보도블록신고기능](/uploads/65a0c9fab829ff7e9982620428666e86/보도블록신고기능.gif) |
-
+<a name="openapi"></a>
+## 📈 Open API
+서울시 교통빅데이터플랫폼에서 제공하는 Open API 사용
+  - 신호기제어기 신호 정보 서비스: 신호제어기에서 발생하는 신호색상, 잔여시간
+  - 교차로 Map 정보: 횡단보도의 위도/경도, 횡단보도의 길이
 
 <a name="technology"></a>
 ## 🔑 기술 소개
 
-
-
-### 📉 Geofence
-![image](https://github.com/NoRuTnT/Dotori/assets/114069644/45e53796-5ac9-480d-9278-2769bb06ca49)
+### 🧭 Geofence
 - 실제 위치에 기반해 가상의 경계를 생성
 - 기반 서비스와 센서 기술을 결합하여 실시간으로 특정 지역에서의 사건을 감지하고 대응
-
----
+  
+  <img width="300" src="https://github.com/NoRuTnT/Dotori/assets/114069644/45e53796-5ac9-480d-9278-2769bb06ca49" />
 
 ### 📊 kafka Connect
-![image](https://github.com/NoRuTnT/Dotori/assets/114069644/102c4418-0330-4dc9-a812-a773a30f2b2f)
+- Kafka Connect는 데이터베이스, 키-값 저장소, 검색 인덱스 및 파일 시스템 간의 간단한 데이터 통합을 위한 중앙 집중식 데이터 허브 역할을 하는 Apache Kafka의 무료 오픈소스 구성요소로 해당 프로젝트에서는 api데이터소스에서 firebase로 데이터를 전달하기위한 파이프라인으로 사용하였다.
 
-Kafka Connect는 데이터베이스, 키-값 저장소, 검색 인덱스 및 파일 시스템 간의 간단한 데이터 통합을 위한 중앙 집중식 데이터 허브 역할을 하는 Apache Kafka의 무료 오픈소스 구성요소로 해당 프로젝트에서는 api데이터소스에서 firebase로 데이터를 전달하기위한 파이프라인으로 사용하였다.  
+- 실시간 교통데이터를 다루기때문에 높은 처리량과 내결함성을 고려하여 **kafka connect** 데이터 파이프라인을 이용하기로 했다.
 
-- 실시간 교통데이터를 다루기때문에 높은 처리량과 내결함성을 고려하여 **kafka connect** 데이터 파이프라인을 이용하기로 했다.   
-
-커넥트는 2가지 종류가 존재하는데 이를 아래와 같이 분류할 수 있다.  
-소스 -> 카프카 : 소스 커넥터(Source Connector)  
-카프카 -> 싱크 : 싱크 커넥터(Sink Connector)  
-
-
-![image](https://github.com/NoRuTnT/Dotori/assets/114069644/c22a0e96-a5b0-4684-aa08-a5e246890c83)
+- 커넥트는 2가지 종류가 존재하는데 이를 아래와 같이 분류할 수 있다.  
+  - 소스 -> 카프카 : 소스 커넥터(Source Connector)  
+  - 카프카 -> 싱크 : 싱크 커넥터(Sink Connector)
+  
+  <img width="770" src="https://github.com/NoRuTnT/Dotori/assets/114069644/102c4418-0330-4dc9-a812-a773a30f2b2f" />
 
 - kafka 클러스터에서는 데이터소스에서 kafka 토픽으로 데이터를 전달하는 source connector와, kafka 토픽에서 firebase로 데이터를 전달하는 sink connector 두개의 커스텀 커넥터를 구현했다.
 
-![동영상](https://github.com/NoRuTnT/Dotori/assets/114069644/24788a84-8bb4-4a18-9d7e-1d6eaa0ac0ed)
+  <img width="770" src="https://github.com/NoRuTnT/Dotori/assets/114069644/c22a0e96-a5b0-4684-aa08-a5e246890c83" />
 
 - realtime database에 데이터가 전달되는 모습
+
+  <img width="300" src="https://github.com/NoRuTnT/Dotori/assets/114069644/24788a84-8bb4-4a18-9d7e-1d6eaa0ac0ed" />
 
 
 <a name="skills"></a>
@@ -181,9 +145,11 @@ Kafka Connect는 데이터베이스, 키-값 저장소, 검색 인덱스 및 파
 ||Loki||
 ||Grafana||
 
+
 <a name="installation"></a>
 ## 🚀 포팅 메뉴얼
 [포팅 메뉴얼](https://lab.ssafy.com/s10-final/S10P31A207/-/blob/aaf44307db9b6e519f78350e60d70e315db3e4b0/exec/deploy.md)
+
 
 <a name="folder"></a>
 ## 📂 폴더 구조
